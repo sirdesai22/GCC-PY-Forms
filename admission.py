@@ -46,7 +46,7 @@ contact.place(x=100, y=200)
 email.place(x=100, y=250)
 
 #Buttons
-Button(root, text="Submit", bd=2, font=20).place(x=150, y=300)
+Button(root, text="Submit", bd=2, font=20, command=clear).place(x=150, y=300)
 Button(root, text="Clear", bd=2, font=20, command=clear).place(x=350, y=300)
 
 root.mainloop()
