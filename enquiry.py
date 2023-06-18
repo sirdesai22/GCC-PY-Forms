@@ -30,6 +30,7 @@ def save_enquiry(name, email, phone, course, message):
 window = tk.Tk()
 window.geometry('800x400')
 window.title("College Enquiry Form")
+window.configure(bg="lavender")
 label_name = tk.Label(window, text="COLLEGE ENQUIRY FORM", font='ALGERIAN 30',bg="lavender")
 label_name.pack()
 # Create labels and entry fields
