@@ -2,13 +2,14 @@ from tkinter import *
 import tkinter as tk
 import admission as ad
 import enquiry as enq
+import marks as mk
 
 def formAdmi():
     ad.run()
 def formEnq():
     enq.run()
 def formMarks():
-    pass
+    mk.run()
 def formFeed():
     pass
 
