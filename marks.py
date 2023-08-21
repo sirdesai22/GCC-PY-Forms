@@ -69,9 +69,9 @@ def run():
 
 
 
-    Button(text="View Result",font="Calibri",command=Result ,bg="White").place(x=300,y=650)
+    Button(root, text="View Result",font="Calibri",command=Result ,bg="White").place(x=300,y=650)
 
-    Button(text="Clear",font="Calibri",bg="White",width=10,command=Clear).place(x=450,y=650)
+    Button(root, text="Clear",font="Calibri",bg="White",width=10,command=Clear).place(x=450,y=650)
 
 
 
